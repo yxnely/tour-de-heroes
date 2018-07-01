@@ -1,8 +1,15 @@
 /* Application-wide Styles */
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+$main-font-family: 'Arimo', 'Arial', sans-serif;
+$main-color: #5F00BA;
+
 h1 {
-	color: #369;
-	font-family: Arial, Helvetica, sans-serif;
+	color: $main-color;
+	font-family: $main-font-family;
 	font-size: 250%;
+	font-weight: 600;
+	margin: 1rem 0;
 }
 h2, h3 {
 	color: #444;

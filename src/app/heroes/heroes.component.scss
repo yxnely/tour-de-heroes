@@ -1,0 +1,27 @@
+$main-color: #5F00BA;
+
+.heroes {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 300px;
+
+    li {
+        border: 1px solid $main-color;
+        border-radius: 2px;
+        display: flex;
+        list-style: none;
+        
+        &:not(:last-of-type) { margin-bottom: 1rem; }
+    }
+
+    span {
+        padding: .5rem;
+    }
+}
+
+.hero {
+    &-badge {
+        background-color: $main-color;
+        color: white;
+    }
+}
